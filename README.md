@@ -22,11 +22,14 @@ Parallel testing on BrowserStack with support for multiple browser configuration
     Open Chrome, go to Help > About Google Chrome, and note the version (e.g., 117.x).
   * Download ChromeDriver:
     Visit ChromeDriver Downloads and download the version matching your Chrome's major version.
-    Windows: chromedriver_win32.zip
+
+    Windows: chromedriver_win32.zip or chromedriver_win64.zip
+
     Mac: chromedriver_mac64.zip or chromedriver_mac64_arm64.zip
+
     Linux: chromedriver_linux64.zip
   * Extract ChromeDriver:
-    Unzip the file and note the path to chromedriver.exe (e.g., C:/path/to/chromedriver.exe).
+    Unzip the file and note the path to chromedriver.exe application (e.g., C:/path/to/chromedriver.exe).
 
 * BrowserStack Account: Register at BrowserStack for automated testing.
   Note the BrowserStack username and BrowserStack Access Key for future purposes which you can find in https://www.browserstack.com/accounts/profile/details after logging in to your account.
@@ -40,8 +43,10 @@ Parallel testing on BrowserStack with support for multiple browser configuration
 #### Installation
 
 * Clone the repository:
-  * git clone https://github.com/RoyLR995/BrowserStack-scraper.git
-  * cd BrowserStack-scraper
+  * Create a new Folder and open the folder in VS code or any other IDE.
+  * Go to the terminal.   
+  * Run the command "git clone https://github.com/RoyLR995/Scraper-BrowserStack.git"
+  * Run the command "cd Scraper-BrowserStack"
 
 * Install the dependencies:
   * pip install selenium
